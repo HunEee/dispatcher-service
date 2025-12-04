@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: dispatcher-service
+  cloud:
+    function: # 스프링 클라우드 함수가 관리할 함수 정의
+      definition: pack|label

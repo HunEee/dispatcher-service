@@ -27,6 +27,10 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-function-context'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
+	// 배송 서비스에 리액터 테스트 의존성 추가
+	testImplementation 'io.projectreactor:reactor-test'
+	
 }
 
 dependencyManagement {
