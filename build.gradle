@@ -31,6 +31,9 @@ dependencies {
 	// 배송 서비스에 리액터 테스트 의존성 추가
 	testImplementation 'io.projectreactor:reactor-test'
 	
+	// 래빗MQ
+	implementation 'org.springframework.cloud:spring-cloud-stream-binder-rabbit'
+	
 }
 
 dependencyManagement {
