@@ -34,6 +34,11 @@ dependencies {
 	// 래빗MQ
 	implementation 'org.springframework.cloud:spring-cloud-stream-binder-rabbit'
 	
+	// 테스트 바인더를 통한 통합 테스트
+	testImplementation("org.springframework.cloud:spring-cloud-stream-test-binder")
+	
+
+	
 }
 
 dependencyManagement {
